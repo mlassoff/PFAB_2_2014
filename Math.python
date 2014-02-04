@@ -1,0 +1,27 @@
+#!/usr/bin/python
+
+operand1 = 27.0;
+operand2 = 96.0;
+
+print operand1 + operand2;
+print operand1 - operand2;
+print operand1 * operand2;
+print operand1 / operand2;
+print operand1 % operand2;
+
+print 46 % 2;  #even
+print 47 % 2;  #odd
+
+print (24 + 5) * 2;  #parenthesis are first in order of operations
+
+#Order of operations:  PEMDAS
+
+
+#print 4.2/2;
+#print 27.0/96;
+
+# divide 2 integers = integer
+# divide an integer and a float = float
+# divide a float and a float = float
+
+

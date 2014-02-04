@@ -1,0 +1,24 @@
+#!/usr/bin/python
+
+
+#integers
+age = 39;     #Variable called age is assinged the value 39
+pepijnAge = 14; 
+playerScore = 295000;
+
+#long
+nationalDebt = 61524361L
+binary = 0x10323L
+
+#float
+gpa = 3.27;
+
+crazyNumber = gpa + age;
+
+print age;
+print pepijnAge; 
+print playerScore;
+print nationalDebt;
+print gpa;
+print binary;
+print crazyNumber;

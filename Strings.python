@@ -1,0 +1,11 @@
+#!/usr/bin/python
+
+str = "I love REO Speedwagon, Styx and Journey";
+str = str + " and Kansas";
+print str;
+print str[0];  #prints first character of the string
+print str[3:12];
+print str * 3;  #prints string 3 times
+
+
+

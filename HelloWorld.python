@@ -1,0 +1,15 @@
+#!/usr/bin/python
+
+#Strings
+print "Hello Python!";
+print "This is a course for Beginning programmers";
+
+#Numerals
+print 40;
+print 999;
+
+#Waits for input from user
+raw_input("\n\nPress the enter key to exit.");
+
+
+
