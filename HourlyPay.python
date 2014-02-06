@@ -1,0 +1,8 @@
+#!/usr/bin/python
+
+rate = input("What is your pay rate? $");
+hours = input("How many hours did you work? ");
+
+pay = rate * hours;
+
+print "Your paycheck will be $" , pay;

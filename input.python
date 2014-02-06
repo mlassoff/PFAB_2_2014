@@ -1,0 +1,11 @@
+#!/usr/bin/python
+
+name = raw_input("Enter your first name: ");
+print "Hello " , name;
+
+age = raw_input("Enter your age: ");
+print "You are " , age , " years old";
+
+ageInDogYears = age * 7;
+print "In dog years you are ", ageInDogYears ," old.";
+
