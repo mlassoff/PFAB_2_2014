@@ -1,0 +1,8 @@
+#!/usr/bin/python
+
+price = input("What is the cost of the item? ")
+taxRate = input("What is the sales tax rate (Expressed as 0.XX) ")
+
+taxes = price * taxRate
+fullCost = price + taxes
+print "The full price of the item is $", fullCost

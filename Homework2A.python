@@ -1,0 +1,25 @@
+#!/usr/bin/python
+
+import sys
+
+test1 = int(sys.argv[1])
+test2 = int(sys.argv[2])
+test3 = int(sys.argv[3])
+test4 = int(sys.argv[4])
+
+
+average = ((test1 + test2 + test3 + test4) / 4)
+
+if average > 90:
+    letterGrade = 'A'
+elif average > 80:
+    letterGrade = 'B'
+elif average > 70:
+    letterGrade = 'C'
+elif average > 60:
+    letterGrade = 'D'
+else:
+    letterGrade = 'F'
+
+print "The average score is: " , average
+print "Letter Grade: " , letterGrade
