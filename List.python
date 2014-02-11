@@ -1,0 +1,38 @@
+#!/usr/bin/python
+
+#classRoster = [ "Mark" , "David" , "Michael" , "Judy" , "Pepijn" ]
+#print (classRoster[3])
+#print (classRoster[-1])
+#print (classRoster[-3])
+
+#gpas = [ 3.12 , 4.0, 2.93, 3.24 , 2.45, 2.17, 3.93, 4.0, 2.55]
+#print (gpas[0])
+#print ("Number of GPAs " , len(gpas))
+#print (gpas[0:4])
+
+languages = [   "Python",
+                "Basic",
+                "C++",
+                "C#",
+                "Java",
+                "Javascript",
+                "Objective C" ]
+                
+languages.append("Lisp")
+
+otherLanguages = [  "Scheme",
+                    "Haskall",
+                    "Go",
+                    "Django"    ]
+                    
+
+languages.extend(otherLanguages)
+languages.insert(2, "SQL")
+del languages[0:5]
+languages.remove("Scheme")
+print languages
+
+
+
+
+

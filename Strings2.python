@@ -1,0 +1,4 @@
+#!/usr/bin/python
+
+myString = "The quick brown fox jumped over the lazy dogs."
+print "There are " , myString.count("o") , " o in the string"

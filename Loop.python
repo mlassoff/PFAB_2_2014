@@ -1,9 +1,9 @@
 #!/usr/bin/python
 
-count = 0;
+count = 0
 while (count < 50):
-    print count;
-    count++ ; 
+    print count
+    count++ 
 
 
 

@@ -1,20 +1,22 @@
 #!/usr/bin/python
+import math;
+
 first = "Pepijn";
 last = "Siebesma";
-age = "14";
+age = 14;
 
-print first + last + age;
+print first , last , age;
 
 sideA = 12.55;
 sideB = 17.85
-print sideA * sideA + sideB * sideB;
+value =  sideA * sideA + sideB * sideB;
 
-import math;
-sideC = math.sqrt(476.125);
-
+sideC = math.sqrt(value);
 print sideC;
+
 operand1 = 95.0;
 operand2 = 64.5;
+
 print operand1 + operand2;
 print operand1 - operand2;
 print operand1 * operand2;

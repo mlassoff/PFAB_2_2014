@@ -1,0 +1,39 @@
+#!/usr/bin/python
+
+#a = 0
+#while a < 20:
+#    print (a, "Hello World")
+#    a = a + 1
+#print ("The end")
+
+#for i in [0,1,2,3,4,75]:
+#    print (i)
+
+#for x in range(15,25):
+#    print (x)
+    
+#for i in "Hello World":
+#    print (i)
+
+#for i in ["Mark" , "David" , "Judy" , "Michael" , "Pieter"]:
+#    print(i)
+
+for key,i in enumerate("The quick brown fox jumped over the lazy dogs."):
+    if key % 2:
+        print ("The letter {} is in an even location " . format(i))
+        
+a = { "one":1 , "two":2, "three": 3}
+for i in a:
+    print (i , " corresponds to " , a[i])
+
+a = { "Connecticut" : "Hartford", "New York" : "Albany" , "Rhode Island" : "Providence" }
+for i in a:
+    print (i , " is the capital of " , a[i])
+    
+
+    
+
+
+
+
+    

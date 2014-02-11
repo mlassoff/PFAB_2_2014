@@ -1,0 +1,24 @@
+#!/usr/bin/python
+
+bands = [   "REO Speedwagon" ,
+            "Foreigner" ,
+            "Styx" ,
+            "Journey" ,
+            "Imagine Dragons" ,
+            "The National" ,
+            "Heart" ,
+            "Scandal"   ];
+            
+#Reversing the order
+#bands.reverse()
+#print bands
+
+#bands.sort()
+#print bands
+
+#sortedBands = sorted(bands)
+#print "Bands: " , bands
+#print "Sorted Bands: " , sortedBands
+
+for i in bands:
+    print i , " has " , len(i), " characters"
